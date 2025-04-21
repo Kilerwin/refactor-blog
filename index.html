@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="style_Inicio.css">
   <link rel="stylesheet" href="style_nav.css">
   <link rel="stylesheet" href="style_footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
-  <div class="container">
+  <div class="sub-container">
     <header>
       <nav>
         <section>
@@ -23,104 +24,98 @@
           <a href="contactanos.html" class="link">Contacto</a>
         </section>
         <section>
-          <svg class="icon-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
+          <svg class="icon-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
         </section>
       </nav>
     </header>
-    <main>
-      <h1>Código y Finanzas: Aprende, Crea y Vive de la Programación</h1>
-      <section>
-        <p  id="homeMessage">"Bienvenido a Código y Finanzas, un espacio donde aprenderás a 
-          programar desde cero, descubrirás recursos prácticos, y conocerás cómo ganar dinero 
-          y administrar tus finanzas como freelancer en tecnología"</p>
-      </section>
-      <section class="with-image">
-        <img id="image" src="./img/lenguajes.jpg" alt="Lenguajes de programación">
-        <div class="containerOneText">
-          <h2>¿Por dónde empezar?</h2> 
-        <ul> 
-          <li>
-            <strong>Entiende lo básico:</strong> La programación es darle instrucciones a una computadora para que haga algo, como una página web o una app.
-          </li>
-
-          <li>
-            <strong>Elige un lenguaje fácil para comenzar:</strong>
-            <ul>
-              <li><strong>HTML y CSS:</strong> Para crear y diseñar páginas web.</li>
-              <li><strong>JavaScript:</strong> Para hacerlas interactivas.</li>
-              <li><strong>Python:</strong> Muy usado y fácil de entender, ideal para automatización y análisis de datos.</li>
-            </ul>
-          </li>
-
-          <li>
-            <strong>Usa las herramientas adecuadas:</strong> Instala un editor como <em>VS Code</em>, y prueba código en sitios como <em>Replit</em> o <em>Codepen</em>.
-          </li>
-
-          <li>
-            <strong>Haz proyectos pequeños:</strong> Crea una lista de tareas, una página personal o una calculadora. Aprenderás más haciendo.
-          </li>
-
-          <li>
-            <strong>Sé constante:</strong> Aprender a programar es como aprender un nuevo idioma. Un poco cada día hace la diferencia.
-          </li>
-        </ul>
+    <main class="container py-5">
+      <div class="row">
+        <div class="col-12 col-lg-1"></div>
+        
+        <div class="col-12 col-lg-10">
+          <h1 class="text-center mb-4" style="color: var(--site-color-tittle);">Código y Finanzas: Aprende, Crea y Vive de la Programación</h1>
+          
+          <section class="mb-5">
+            <p class="lead text-center fst-italic mx-auto" style="max-width: 800px;">
+              "Bienvenido a Código y Finanzas, un espacio donde aprenderás a programar desde cero, descubrirás recursos prácticos, y conocerás cómo ganar dinero y administrar tus finanzas como freelancer en tecnología"
+            </p>
+          </section>
+    
+          <section class="row align-items-center mb-5">
+            <div class="col-lg-6 mb-3 mb-lg-0 text-center">
+              <img src="./img/lenguajes.jpg" alt="Lenguajes de programación" class="img-fluid rounded shadow" style="width: 60%; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="mb-3" style="color: var(--site-color-tittle);">¿Por dónde empezar?</h2>
+              <ul class="list-unstyled">
+                <li><strong>Entiende lo básico:</strong> La programación es darle instrucciones a una computadora para que haga algo, como una página web o una app.</li>
+                <li class="mt-2"><strong>Elige un lenguaje fácil para comenzar:</strong>
+                  <ul>
+                    <li>HTML y CSS: Para crear y diseñar páginas web.</li>
+                    <li>JavaScript: Para hacerlas interactivas.</li>
+                    <li>Python: Muy usado y fácil de entender.</li>
+                  </ul>
+                </li>
+                <li class="mt-2"><strong>Usa las herramientas adecuadas:</strong> Instala VS Code o prueba Replit / Codepen.</li>
+                <li class="mt-2"><strong>Haz proyectos pequeños:</strong> Lista de tareas, página personal o calculadora.</li>
+                <li class="mt-2"><strong>Sé constante:</strong> Un poco cada día hace la diferencia.</li>
+              </ul>
+            </div>
+          </section>
+          <section class="row align-items-center mb-5">
+            <div class="col-lg-6 order-lg-2 mb-3 mb-lg-0 text-center">
+              <img src="./img/recursos.jpg" alt="Recursos de programación" class="img-fluid rounded shadow" style="width: 60%; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <h2 class="mb-3" style="color: var(--site-color-tittle);">Recursos y tutoriales</h2>
+              <p>Contenido útil, probado y claro para avanzar sin frustraciones:</p>
+              <ul class="list-unstyled">
+                <li>Tutoriales paso a paso con capturas y explicación sencilla.</li>
+                <li>Recursos gratuitos: cursos, libros, YouTube, blogs, foros.</li>
+                <li>Herramientas útiles (extensiones, editores online).</li>
+                <li>Git y GitHub desde cero.</li>
+                <li>Tips para organizar tu aprendizaje y crear proyectos reales.</li>
+              </ul>
+              <p><strong>Objetivo:</strong> avanzar sin estancarse.</p>
+            </div>
+          </section>
+    
+          <section class="row align-items-center mb-5">
+            <div class="col-lg-6 mb-3 mb-lg-0 text-center">
+              <img src="./img/monetizacion.jpg" alt="Monetización con programación" class="img-fluid rounded shadow" style="width: 60%; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
+            </div>
+            <div class="col-lg-6">
+              <h2 class="mb-3" style="color: var(--site-color-tittle);">Monetización con programación</h2>
+              <ul class="list-unstyled">
+                <li>Servicios freelance: plataformas, perfiles, servicios iniciales.</li>
+                <li>Productos digitales: plantillas, bots, scripts, apps.</li>
+                <li>Blog, YouTube o tutoriales monetizados.</li>
+                <li>Cómo fijar precios, cobrar y entregar trabajos pro.</li>
+                <li>Casos reales y estrategias efectivas.</li>
+              </ul>
+              <p><strong>Objetivo:</strong> transformar tu aprendizaje en ingresos.</p>
+            </div>
+          </section>
+    
+          <section class="row align-items-center mb-5">
+            <div class="col-lg-6 order-lg-2 mb-3 mb-lg-0 text-center">
+              <img src="./img/freelancer.jpg" alt="Finanzas para freelancers" class="img-fluid rounded shadow" style="width: 60%; box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <h2 class="mb-3" style="color: var(--site-color-tittle);">Finanzas para freelancers tech</h2>
+              <ul class="list-unstyled">
+                <li>Presupuestos mensuales con ingresos variables.</li>
+                <li>Apps y plantillas para controlar tus finanzas.</li>
+                <li>Tips de ahorro y metas financieras.</li>
+                <li>Automatiza tus ahorros con scripts o Excel.</li>
+              </ul>
+              <p><strong>Objetivo:</strong> cuidar tus ingresos y lograr estabilidad.</p>
+            </div>
+          </section>
         </div>
-      </section>
-      <section class="with-image reverse">
-        <img id="image" src="./img/recursos.jpg" alt="Lenguajes de programación">
-        <div class="containerOneText">
-          <h2>Recursos y tutoriales</h2>
-           <p>Una vez que empiezas a programar, necesitas buenas herramientas y guías claras para avanzar. 
-            Esta sección está pensada para compartir contenido que realmente uso o he probado, ideal para 
-            ahorrar tiempo y evitar frustraciones.</p>
-             <p>Aquí encontrarás:</p>
-              <ul>
-                 <li>Tutoriales paso a paso (con capturas, código y explicación sencilla).</li>
-                 <li>Listas de recursos gratuitos para aprender: cursos, libros, canales de YouTube, blogs y foros.</li>
-                 <li>Herramientas útiles para programar más rápido (extensiones para VS Code, emuladores, editores online).</li>
-                 <li>Cómo usar Git y GitHub desde cero para guardar y compartir tus proyectos.</li>
-                 <li>Recomendaciones para organizar tu aprendizaje y crear tus primeros proyectos.</li>
-                </ul>
-                 <p><strong>Objetivo:</strong>darte todo lo necesario para avanzar sin quedarte estancado/a.</p>
-                </section>
-          </div>
-      <section class="with-image">
-        <img id="image" src="./img/monetizacion.jpg" alt="Lenguajes de programación">
-        <div class="containerOneText">
-          <h2>Monetización con programación</h2>
-          <p>Saber programar te abre puertas para ganar dinero de muchas formas, incluso si aún estás aprendiendo. 
-            En esta sección te muestro opciones reales y accesibles para empezar a monetizar tu conocimiento.</p>
-            <p>Aquí aprenderás:</p>
-            <ul>
-              <li>Cómo ofrecer servicios freelance: en qué plataformas registrarte, 
-                cómo crear un perfil atractivo y qué servicios puedes ofrecer desde 
-                el inicio.</li>
-              <li>deas de productos digitales que puedes crear (plantillas, bots, scripts, apps sencillas).</li>
-              <li>Cómo ganar dinero con un blog, canal de YouTube o compartiendo tus tutoriales.</li>
-              <li>Consejos para fijar precios, cobrar de forma segura y entregar trabajos profesionales</li>
-              <li>Casos reales y estrategias que funcionan (desde mi experiencia o la de otros desarrolladores).</li>
-            </ul>
-            <p><strong>Objetivo:</strong>que puedas convertir tu aprendizaje en ingresos reales, poco a poco y de forma sostenible.</p>
-
-        </div>
-      </section>
-      <section class="with-image reverse">
-        <img id="image" src="./img/freelancer.jpg" alt="Lenguajes de programación">
-        <div  class="containerOneText ">
-          <h2>Finanzas para freelancers tech</h2>
-          <p>Si trabajas por tu cuenta, llevar un buen control de tus finanzas es clave. Esta sección te ayudará a organizar tu dinero, 
-            tomar mejores decisiones y mantener estabilidad económica mientras creces como freelancer.</p>
-            <p>Aquí verás:</p>
-            <ul>
-              <li>Cómo hacer un presupuesto mensual adaptado a ingresos variables.</li>
-              <li>Apps y plantillas para controlar gastos, registrar pagos y hacer seguimiento de tus finanzas.</li>
-              <li>Tips para ahorrar, fijar metas financieras y evitar errores comunes como freelancer</li>
-              <li>Automatiza tu ahorro con pequeños scripts o calculadoras hechas en Python o Excel.</li>
-            </ul>
-            <p><strong>Objetivo:</strong>ayudarte a cuidar lo que ganas, crecer con orden y tener claridad sobre tu situación financiera.</p>
-        </div>
-      </section>
-
+    
+        <div class="col-12 col-lg-1"></div>
+      </div>
     </main>
     <footer>
       <figure>

@@ -26,6 +26,18 @@ h2{
   fill: rgb(40, 7, 100);
   margin-right: 20px;
 }
+  
+.titulo-custom {
+  color: var(--site-color-tittle);
+}
 
+.subtitulo-custom {
+  color: var(--site-color-text-black);
+  font-size: 1.3rem;
+}
 
+.btn-custom {
+  background-color: var(--site-color-button);
+  color: var(--site-color-text-white)
+}
 
