@@ -1,3 +1,12 @@
+:root {
+  --site-color-nav-footer: ##1b09f8;
+  --site-color-tittle: #482afa;
+  --site-color-button: #764cfc;
+  --site-color-hover: #a36dfd;
+  --site-color-text-black: #000;
+  --site-color-text-white: #fff;
+}
+
 body{
   margin: 0;
   padding: 0;
