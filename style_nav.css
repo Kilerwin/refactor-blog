@@ -24,50 +24,9 @@ h1,h2,h3,h4,h5,h6 {
     auto 1fr auto;
 } 
 
-nav {
-  width: 100vw;
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(3, 65, 165);
-  padding: 5px 10px;
-  z-index: 1000;
-}
-
-nav section figure {
-  margin: 0;
-  padding: 0;
-}
-
 .logo{
   width: 40px;
   height: 40px;
-}
-
-.icon-user {
-  width: 20px;
-  height: 20px;
-  fill: white;
-  cursor: pointer;
-  margin-right: 20px;
-}
-
-.icon-user:hover {
-  fill: rgb(192, 190, 190);
-}
-
-.link {
-  text-decoration: none;
-  color: #fff;
-  margin: 0 10px;
-}
-
-.link:hover{
-  text-decoration: none;
-  color: rgb(192, 190, 190);
 }
 
 main {
