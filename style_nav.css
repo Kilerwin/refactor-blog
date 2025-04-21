@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6 {
   color: rgb(39, 96, 188);
 }
 
-.container {
+.sub-container {
   display: grid;
   min-height: 100dvh;
   grid-template-rows: 
