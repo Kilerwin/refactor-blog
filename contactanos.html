@@ -12,20 +12,26 @@
 <body>
   <div class="sub-container">
     <header>
-      <nav>
-        <section>
-          <figure>
-            <img src="img/Logo.png" alt="Logo Blog" class="logo">
-          </figure>
-        </section>
-        <section>
-          <a href="index.html" class="link">Inicio</a>
-          <a href="quienes_somos.html" class="link">Quienes somos</a>
-          <a href="contactanos.html" class="link">Contacto</a>
-        </section>
-        <section>
-          <svg class="icon-user" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
-        </section>
+      <nav class="navbar navbar-expand-lg " style="background-color: var(--site-color-nav-footer);" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" alt="Logo Blog" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="quienes_somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactanos.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="container mt-5 text-center">
@@ -85,23 +91,24 @@
 
     </main>
 
-    <footer>
-      <section>
-        <figure>
-          <img src="img/Logo.png" alt="Logo Blog" class="logo">
-        </figure>
-      </section>
-      <section>
-        <ul>
-          <li>Miguel Mora <strong>example@example.com</strong></li>
-          <li>Veronica Cardenas <strong>example@example.com</strong></li>
-          <li>Lizet Martinez <strong>example@example.com</strong></li>
-          <li>Andrea Garcia <strong>example@example.com</strong></li>
-        </ul>
-      </section>
-      <p>&copy; 2025 Código y Finanzas</p>
-      <section>
-      </section>
+    <footer class="container-fluid" style="background-color: var(--site-color-nav-footer);" data-bs-theme="dark">
+      <div class="row row-cols-1 row-cols-sm-2 py-5 mt-5">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+            <img src="img/Logo.png" alt="Logo Blog" class="logo">
+          </a>
+          <p class="text-body-secondary">&copy; 2025 Código y Finanzas</p>
+        </div>
+    
+        <div class="col mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2 text-body-secondary">Miguel Mora <strong>example@example.com</strong></li>
+            <li class="nav-item mb-2 text-body-secondary">Veronica Cardenas <strong>example@example.com</strong></li>
+            <li class="nav-item mb-2 text-body-secondary">Lizet Martinez <strong>example@example.com</strong></li>
+            <li class="nav-item mb-2 text-body-secondary">Andrea Garcia <strong>example@example.com</strong></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </div>
   <script src="script.js"></script>
