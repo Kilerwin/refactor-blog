@@ -1,0 +1,149 @@
+.container {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 
+    auto 1fr auto;
+} 
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.seccion-titulo {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.introduccion {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 25px;
+}
+.mision-vision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.mision-vision-card {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+.mision-vision-card h3 {
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+.mision-vision-card p {
+    color: #666;
+    font-size: 1em;
+}
+.equipo {
+    margin-top: 40px;
+}
+.equipo-titulo {
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.equipo-miembros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.miembro {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+.miembro img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.miembro h4 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.miembro p {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.nuestro-enfoque {
+    margin-top: 40px;
+}
+.nuestro-enfoque h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.nuestro-enfoque ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.nuestro-enfoque li {
+    margin-bottom: 10px;
+    color: #555;
+}
+.llamada-accion {
+    margin-top: 50px;
+    text-align: center;
+}
+.llamada-accion p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.boton-contacto {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.boton-contacto:hover {
+    background-color: #219653;
+}
+.enlaces-redes {
+    margin-top: 20px;
+    text-align: center;
+}
+.enlaces-redes a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #3498db;
+    font-size: 1.3em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.enlaces-redes a:hover {
+    color: #2980b9;
+}

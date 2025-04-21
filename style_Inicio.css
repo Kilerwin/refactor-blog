@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+} 
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#homeMessage {
+  text-align: center;
+  font-family: cursive;
+  margin-inline: 300px;
+}
+
+section.with-image {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+section.with-image.reverse {
+  flex-direction: row-reverse;
+}
+
+ul {
+  justify-content: flex-end;
+}
+
+#image {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.containerOneText {
+  text-align: left;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+
